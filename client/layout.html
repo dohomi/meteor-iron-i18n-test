@@ -1,0 +1,21 @@
+<template name="layout">
+
+    <h1>Welcome to iron router i18n test environment.</h1>
+
+    <div>
+        <ul>
+            <li><a href="{{pathFor 'start'}}">Start</a></li>
+            <li><a href="{{pathFor 'login'}}">Login Route</a></li>
+            <li><a href="{{pathFor 'routeA'}}">Package Route A</a></li>
+            <li><a href="{{pathFor 'routeB'}}">Package Route B</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div>
+        {{> yield}}
+    </div>
+</template>
+
+
