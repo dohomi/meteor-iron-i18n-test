@@ -94,7 +94,7 @@
     ],
     [
       "martino:iron-router-i18n",
-      "0.3.3"
+      "0.4.2"
     ],
     [
       "meteor",
@@ -135,10 +135,6 @@
     [
       "retry",
       "1.0.1"
-    ],
-    [
-      "route-configure",
-      "0.0.0"
     ],
     [
       "routepolicy",
